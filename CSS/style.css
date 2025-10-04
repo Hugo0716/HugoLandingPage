@@ -1,0 +1,115 @@
+
+* {
+    box-sizing: border-box;
+    font-family: Poppins, sans-serif;
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    font-size: 20px;
+    color: white;
+    background: rgb(8,27,41);
+    
+ 
+}
+
+
+
+
+.section-style{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.header {
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-right: 50px;
+    background: black;
+}
+
+.navbar a{
+    font-size: 30px;
+    color: white;
+    text-decoration: none;
+    font-weight: 500;
+    margin-left: 35px;
+    transition: 3s;
+}
+
+.navbar a:hover{
+    color: blue;
+}
+
+.section-style {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.content-style {
+    max-width: 600px;
+    font-weight: 700;
+    text-align: center;
+    padding: 20px;
+}
+
+.content-style h1 {
+    font-size: 60px;
+    text-align: center;
+    padding-bottom: 25px;
+}
+
+.content-style h2 {
+    font-size: 40px;
+    color: rgb(0,171,240);
+    padding-bottom: 25px;
+}
+
+.content-style h3 {
+    font-size: 35px;
+    color: rgb(0,171,240);
+    padding-bottom: 25px;
+    
+}
+
+.h3-projects {
+    font-size: 35px;
+    color: rgb(0,171,240);
+    padding-bottom: 30px;
+}
+
+
+.my-projects {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: center;
+}
+
+.folder {
+    margin: 15px;
+    text-align: center;
+}
+
+.folder h3 {
+    font-size: 25px;
+    padding-bottom: 20px;
+}
+
+.folder img { 
+    border: 1px solid grey;
+    padding: 0px;
+    width: 400px;
+}
+
+.project-footer {
+    text-align: center;
+}
